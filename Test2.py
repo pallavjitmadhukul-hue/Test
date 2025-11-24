@@ -29,10 +29,10 @@ df = load_data("Superstore.csv")
 # -----------------------------
 header = st.container()
 with header:
-    col1, col2 = st.columns([1, 8])
+    col1, col2 = st.columns([2, 8])
 
     with col1:
-        st.image("logo2.png", width=70)
+        st.image("logo2.png", width=250)
 
     with col2:
         st.markdown(
